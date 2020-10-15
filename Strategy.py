@@ -1,4 +1,12 @@
-from ReadOut import *
+from io import StringIO
+from langdetect import detect
+from talib.abstract import *
+
+import datetime
+import matplotlib.pyplot as plt
+import numpy as np
+import os
+import pandas as pd
 
 class MovingAverageCrossStrategy(object):
     """    
@@ -92,8 +100,7 @@ class Portfolio(object):
         portfolio['returns'] = portfolio.total.pct_change()
         return portfolio
 
-#daily_trading = read_daily_trading('0050', 400)
-daily_trading = pd.read_csv('/Users/bobby/Desktop/OHLCV.csv')
+daily_trading = pd.read_csv('OHLCV.csv')
 signals = MovingAverageCrossStrategy(daily_trading).generate_signals()
 portfolio = Portfolio(daily_trading, signals).backtest_portfolio()
 
