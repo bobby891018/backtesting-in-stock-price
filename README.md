@@ -2,7 +2,7 @@ Backtesting a simple trading strategy by using the historical prices of
 Yuanta/P-shares Taiwan Top 50 ETF (元大台灣50 - 0050) in Taiwan stock market.
 
 (1) Read the OHLCV data frame from 'OHLCV.csv' file. 
-The file includes data of 400 trading days start from 7 Oct 2020.
+The file includes data of lookback 400 trading days from 7 Oct 2020.
 
 (2) Define the trading strategy (MovingAverageCrossStrategy), which will generate moving-averaged data from short and long filter windows.
 The values have been set to defaults of 5 days and 20 days, respectively.
