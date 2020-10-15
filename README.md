@@ -12,6 +12,7 @@ The trading strategy will output the signal as 1 while the short moving-averages
 Assuming that we buy (or sell) 1000 shares in each time. 
 
 ![image](https://github.com/bobby891018/modified-backtesting-in-stock-price/blob/main/Figure.png)
+
 [Upper panel] Moving average crossover performance from our data. 
 Upward (downward) triangle symbols denote the buying (selling) signals.
 
