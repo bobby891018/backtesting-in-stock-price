@@ -17,5 +17,5 @@ Assuming that we buy (or sell) 1000 shares in each time.
 Upward (downward) triangle symbols denote the buying (selling) signals.
 
 [Lower panel] The returns of our portfolio. 
-By following this strategy, we may made a profit of ~30% in these 400 trading days.
+By using this strategy, we may made a profit of ~30% in these 400 trading days.
 
