@@ -9,7 +9,7 @@ The values have been set to defaults of 5 days and 20 days, respectively.
 The trading strategy will output the signal as 1 while the short moving-averages of prices crossover the long moving-averages, and vice versa
 
 
-(3) Create a portfolio () with an initial capital of NTD 100,000. 
+(3) Create a portfolio with an initial capital of NTD 100,000. 
 Assuming that we buy (or sell) 1000 shares in each time. 
 
 
